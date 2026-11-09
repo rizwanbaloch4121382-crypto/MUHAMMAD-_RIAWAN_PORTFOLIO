@@ -1,0 +1,388 @@
+[
+  {
+    "id": "textile",
+    "name": "Textile & Apparel",
+    "icon": "🧵",
+    "accent": "#8f5a3c",
+    "summary": "Pakistan’s largest manufacturing-export ecosystem, spanning cotton, spinning, weaving, processing, home textiles and garments.",
+    "history": "Textiles developed into a core industrial base after independence, expanding from cotton ginning and spinning into integrated value-added apparel and home-textile production. The Ministry of Commerce describes a self-reliant chain from ginning and spinning through weaving, knitting, processing and finished products.",
+    "work": "Transforms cotton and man-made fibres into yarn, fabric, processed textile, garments, towels, denim, knitwear, home linen and technical textiles.",
+    "products": [
+      "Yarn",
+      "Fabric",
+      "Denim",
+      "Garments",
+      "Towels",
+      "Home linen"
+    ],
+    "ai": [
+      "Computer-vision fabric defect detection",
+      "Demand forecasting",
+      "Production scheduling",
+      "Energy optimization",
+      "Predictive maintenance"
+    ],
+    "source": "Ministry of Commerce — Textile Wing / Year Book 2024–25",
+    "url": "https://www.commerce.gov.pk/",
+    "companies": [
+      {
+        "name": "Interloop Limited",
+        "url": "https://interloop-pk.com/"
+      },
+      {
+        "name": "Gul Ahmed Textile Mills",
+        "url": "https://gulahmed.com/"
+      },
+      {
+        "name": "Nishat Mills / Nishat Linen",
+        "url": "https://nishatlinen.com/"
+      },
+      {
+        "name": "Artistic Milliners",
+        "url": "https://artisticmilliners.com/"
+      }
+    ]
+  },
+  {
+    "id": "cement",
+    "name": "Cement",
+    "icon": "🏗️",
+    "accent": "#6e7b85",
+    "summary": "A capital-intensive manufacturing industry supplying cement for housing, infrastructure and commercial construction.",
+    "history": "Pakistan’s cement capacity expanded over successive industrial-development phases as urbanization, housing and infrastructure increased demand. Producers are organized around integrated plants using limestone and other minerals.",
+    "work": "Quarries and prepares raw materials, produces clinker in high-temperature kilns, grinds it with additives, then packages or dispatches bulk cement.",
+    "products": [
+      "Ordinary Portland Cement",
+      "Sulphate-resistant cement",
+      "Clinker",
+      "Bulk cement"
+    ],
+    "ai": [
+      "Kiln process optimization",
+      "Predictive maintenance",
+      "Computer-vision safety",
+      "Fuel efficiency analytics",
+      "Quality prediction"
+    ],
+    "source": "Pakistan Economic Survey — Manufacturing & Mining",
+    "url": "https://www.finance.gov.pk/survey_2026.html",
+    "companies": [
+      {
+        "name": "Lucky Cement",
+        "url": "https://lucky-cement.com/en"
+      },
+      {
+        "name": "D.G. Khan Cement",
+        "url": "https://www.dgcement.com/"
+      },
+      {
+        "name": "Fauji Cement",
+        "url": "https://fccl.com.pk/"
+      },
+      {
+        "name": "Maple Leaf Cement",
+        "url": "https://www.kmlg.com/"
+      }
+    ]
+  },
+  {
+    "id": "automotive",
+    "name": "Automotive & Engineering",
+    "icon": "🚗",
+    "accent": "#244a63",
+    "summary": "Vehicle assembly, tractors, motorcycles, components and engineering supply chains supported by localization and industrial policy.",
+    "history": "Pakistan has used successive auto-development policies to encourage local assembly, parts manufacturing, localization and exports. The Ministry of Industries lists Auto Industry Development and Export Policy 2021–26 and the newer New Energy Vehicles Policy 2025–30 among current policy frameworks.",
+    "work": "Combines component manufacturing, stamping, machining, painting, assembly, testing, dealerships and after-sales services.",
+    "products": [
+      "Cars",
+      "Motorcycles",
+      "Tractors",
+      "Commercial vehicles",
+      "Auto parts"
+    ],
+    "ai": [
+      "Visual quality inspection",
+      "Robot-assisted manufacturing",
+      "Warranty analytics",
+      "Supply-chain forecasting",
+      "Predictive maintenance"
+    ],
+    "source": "Ministry of Industries & Production — Policies",
+    "url": "https://moip.gov.pk/Policies",
+    "companies": [
+      {
+        "name": "Indus Motor Company (Toyota)",
+        "url": "https://www.toyota-indus.com/"
+      },
+      {
+        "name": "Pak Suzuki Motor Company",
+        "url": "https://www.paksuzuki.com.pk/"
+      },
+      {
+        "name": "Honda Atlas Cars Pakistan",
+        "url": "https://www.honda.com.pk/"
+      },
+      {
+        "name": "Millat Tractors",
+        "url": "https://www.millat.com.pk/"
+      }
+    ]
+  },
+  {
+    "id": "pharma",
+    "name": "Pharmaceuticals",
+    "icon": "💊",
+    "accent": "#365b75",
+    "summary": "A regulated healthcare manufacturing sector covering medicines, biological products and related therapeutic goods.",
+    "history": "Modern pharmaceutical manufacturing in Pakistan operates under a national regulatory framework. DRAP, established under the DRAP Act 2012, coordinates and enforces requirements for therapeutic goods and oversees licensing, registration, surveillance and quality functions.",
+    "work": "Formulation, manufacturing, quality control, packaging, registration, pharmacovigilance and distribution of therapeutic products.",
+    "products": [
+      "Tablets",
+      "Capsules",
+      "Injectables",
+      "Biological drugs",
+      "OTC products"
+    ],
+    "ai": [
+      "Quality anomaly detection",
+      "Document intelligence",
+      "Demand forecasting",
+      "Pharmacovigilance assistance",
+      "Manufacturing analytics"
+    ],
+    "source": "Drug Regulatory Authority of Pakistan (DRAP)",
+    "url": "https://www.dra.gov.pk/",
+    "companies": [
+      {
+        "name": "Getz Pharma",
+        "url": "https://getzpharma.com/"
+      },
+      {
+        "name": "GSK Pakistan",
+        "url": "https://pk.gsk.com/en-pk/"
+      },
+      {
+        "name": "Abbott Pakistan",
+        "url": "https://www.pk.abbott/"
+      },
+      {
+        "name": "Martin Dow",
+        "url": "https://www.martindow.com/"
+      }
+    ]
+  },
+  {
+    "id": "energy",
+    "name": "Energy & Power",
+    "icon": "⚡",
+    "accent": "#a8772e",
+    "summary": "Power generation, transmission and distribution plus petroleum, gas, coal and renewable-energy systems.",
+    "history": "Pakistan’s energy system has evolved from conventional thermal and hydropower toward a broader mix that includes nuclear, wind, solar and other sources. The Pakistan Economic Survey tracks installed electricity capacity, generation and energy consumption as national indicators.",
+    "work": "Generates electricity, moves it through transmission networks, distributes it to consumers, and manages fuel and renewable-energy supply chains.",
+    "products": [
+      "Electricity",
+      "Petroleum products",
+      "Natural gas",
+      "Coal energy",
+      "Renewable power"
+    ],
+    "ai": [
+      "Load forecasting",
+      "Grid anomaly detection",
+      "Asset maintenance",
+      "Renewable generation forecasting",
+      "Energy-theft analytics"
+    ],
+    "source": "Pakistan Economic Survey — Energy",
+    "url": "https://www.finance.gov.pk/survey_2026.html",
+    "companies": [
+      {
+        "name": "K-Electric",
+        "url": "https://ke.com.pk/"
+      },
+      {
+        "name": "The Hub Power Company (HUBCO)",
+        "url": "https://hubpower.com/"
+      },
+      {
+        "name": "OGDCL",
+        "url": "https://ogdcl.com/"
+      },
+      {
+        "name": "Pakistan State Oil (PSO)",
+        "url": "https://psopk.com/"
+      }
+    ]
+  },
+  {
+    "id": "steel",
+    "name": "Steel & Metals",
+    "icon": "🔩",
+    "accent": "#5c6872",
+    "summary": "A foundational materials industry supporting construction, engineering, transport, appliances and infrastructure.",
+    "history": "Steel production and re-rolling grew alongside Pakistan’s construction and engineering sectors. The sector includes integrated and mini-mill production, scrap-based melting, re-rolling and downstream fabrication.",
+    "work": "Melts or processes iron and steel inputs into billets, bars, sheets, coils and fabricated products used by other industries.",
+    "products": [
+      "Billets",
+      "Rebar",
+      "Sheets",
+      "Coils",
+      "Fabricated steel"
+    ],
+    "ai": [
+      "Furnace optimization",
+      "Surface defect detection",
+      "Yield prediction",
+      "Safety monitoring",
+      "Inventory planning"
+    ],
+    "source": "Pakistan Economic Survey — Manufacturing & Mining",
+    "url": "https://www.finance.gov.pk/survey_2026.html",
+    "companies": [
+      {
+        "name": "International Steels Limited",
+        "url": "https://isl.com.pk/"
+      },
+      {
+        "name": "Aisha Steel Mills",
+        "url": "https://www.aishasteel.com/"
+      },
+      {
+        "name": "Amreli Steels",
+        "url": "https://amrelisteels.com/"
+      },
+      {
+        "name": "Mughal Iron & Steel",
+        "url": "https://mughalsteel.com/"
+      }
+    ]
+  },
+  {
+    "id": "fertilizer",
+    "name": "Fertilizer & Chemicals",
+    "icon": "🧪",
+    "accent": "#55754f",
+    "summary": "Process industries supplying agricultural nutrients and industrial chemicals to the wider economy.",
+    "history": "Fertilizer development has been closely linked with Pakistan’s agricultural productivity and natural-gas-based industrialization. Government industrial policy has long included fertilizer-sector frameworks.",
+    "work": "Uses chemical processing to manufacture nitrogenous and other fertilizers, with associated storage, bagging, logistics and dealer networks.",
+    "products": [
+      "Urea",
+      "DAP and related fertilizers",
+      "Industrial chemicals",
+      "Ammonia intermediates"
+    ],
+    "ai": [
+      "Process optimization",
+      "Plant reliability models",
+      "Safety analytics",
+      "Demand planning",
+      "Emissions monitoring"
+    ],
+    "source": "Ministry of Industries & Production — Industrial Policies",
+    "url": "https://moip.gov.pk/Policies",
+    "companies": [
+      {
+        "name": "Engro Fertilizers",
+        "url": "https://www.engrofertilizers.com/"
+      },
+      {
+        "name": "Fauji Fertilizer Company",
+        "url": "https://ffc.com.pk/"
+      },
+      {
+        "name": "Fatima Fertilizer",
+        "url": "https://fatima-group.com/"
+      },
+      {
+        "name": "Agritech Limited",
+        "url": "https://agritech.com.pk/"
+      }
+    ]
+  },
+  {
+    "id": "food",
+    "name": "Food & Agro Processing",
+    "icon": "🌾",
+    "accent": "#8c7144",
+    "summary": "Turns agricultural output into packaged foods, beverages, dairy, edible oils, milling and other consumer products.",
+    "history": "Food processing grew with Pakistan’s large agricultural base, urbanization and modern retail. It connects farms to industrial processing, cold chains, packaging and consumer markets.",
+    "work": "Procures crops, milk, livestock and other inputs; processes, tests, packages and distributes food products.",
+    "products": [
+      "Flour & grain products",
+      "Dairy",
+      "Edible oils",
+      "Beverages",
+      "Processed foods"
+    ],
+    "ai": [
+      "Quality grading",
+      "Cold-chain monitoring",
+      "Demand forecasting",
+      "Crop-supply prediction",
+      "Food safety vision systems"
+    ],
+    "source": "Pakistan Economic Survey — Agriculture / Manufacturing",
+    "url": "https://www.finance.gov.pk/survey_2026.html",
+    "companies": [
+      {
+        "name": "Nestlé Pakistan",
+        "url": "https://www.nestle.pk/"
+      },
+      {
+        "name": "National Foods",
+        "url": "https://www.nfoods.com/"
+      },
+      {
+        "name": "FrieslandCampina Engro Pakistan",
+        "url": "https://www.fcepl.com/"
+      },
+      {
+        "name": "Shan Foods",
+        "url": "https://www.shanfoods.com/"
+      }
+    ]
+  },
+  {
+    "id": "it",
+    "name": "IT & Digital Services",
+    "icon": "💻",
+    "accent": "#2c6571",
+    "summary": "Software, IT-enabled services, cloud, freelancing and digital-product activity serving domestic and international markets.",
+    "history": "Pakistan’s technology-services ecosystem expanded with internet adoption, software exports, freelancing and startup growth. Public institutions track IT and telecom as a distinct part of the economy.",
+    "work": "Builds software, digital platforms, IT-enabled business services, cloud solutions, cybersecurity and data/AI products.",
+    "products": [
+      "Software",
+      "SaaS",
+      "IT services",
+      "BPO",
+      "Cloud & AI solutions"
+    ],
+    "ai": [
+      "AI-native software products",
+      "Customer-support agents",
+      "Code assistance",
+      "Document automation",
+      "Data analytics"
+    ],
+    "source": "Pakistan Economic Survey — Information Technology & Telecommunication",
+    "url": "https://www.finance.gov.pk/survey_2026.html",
+    "companies": [
+      {
+        "name": "Systems Limited",
+        "url": "https://www.systemsltd.com/"
+      },
+      {
+        "name": "NETSOL Technologies",
+        "url": "https://www.netsolpk.com/"
+      },
+      {
+        "name": "10Pearls",
+        "url": "https://10pearls.com/"
+      },
+      {
+        "name": "Arbisoft",
+        "url": "https://arbisoft.com/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Muhammad Rizwan — AI student portfolio and Pakistan industries research explorer.">
+  <title>Muhammad Rizwan | AI & Pakistan Industries</title>
+  <link rel="icon" href="{{ url_for('static', filename='images/favicon.svg') }}" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home"><span class="brandmark">MR</span><span><b>Muhammad Rizwan</b><small>AI & Industry Portfolio</small></span></a>
+  <button class="profile-orb" id="profileOpen" type="button" aria-label="Open Muhammad Rizwan profile photo"><img src="{{ url_for('static', filename='images/muhammad-rizwan.jpg') }}" alt="Muhammad Rizwan"></button>
+  <button class="menu" aria-label="Toggle navigation">☰</button>
+  <nav><a href="#home">Home</a><a href="#about">About</a><a href="#ai">AI Journey</a><a href="#projects">Projects</a><a href="#industries">Industries</a><a href="#ai-industry">AI × Industry</a><a href="#contact">Contact</a></nav>
+  <a class="top-cta" href="#contact">Let’s Connect ↗</a>
+</header>
+
+<main>
+<section id="home" class="hero shell">
+  <div class="hero-side hero-intro reveal">
+    <span class="eyebrow">AI STUDENT • INDUSTRY RESEARCH • PAKISTAN</span>
+    <h1>Learning AI.<br><em>Building for the real world.</em></h1>
+    <p>I’m Muhammad Rizwan, an Artificial Intelligence student developing strong foundations in Python, machine learning, problem solving and intelligent systems — while exploring how AI can improve Pakistan’s major industries.</p>
+    <div class="actions"><a class="btn dark" href="#ai">Explore AI Journey</a><a class="btn light" href="#industries">Open Industry Explorer</a></div>
+    <div class="mini-stats"><div><b>AI</b><span>Student Journey</span></div><div><b>Python</b><span>Core Skill</span></div><div><b>9</b><span>Industry Profiles</span></div></div>
+  </div>
+
+
+  <div class="hero-side industry-visual reveal delay2">
+    <div class="factory-photo-wrap"><img src="{{ url_for('static', filename='images/pakistan-industrial-plant.png') }}" alt="Modern industrial plant in Pakistan at sunset"><span class="factory-badge">Pakistan Industry • AI Ready</span></div>
+    <span class="eyebrow copper">AI × PAKISTAN INDUSTRY</span>
+    <h2>From data to smarter industrial systems.</h2>
+    <p>Researching where automation, computer vision, predictive maintenance and decision-support systems can create practical value.</p>
+  </div>
+</section>
+
+<section class="strip shell reveal">
+  <div><span>01</span><b>Programming Foundations</b><small>Python • Logic • Problem Solving</small></div>
+  <div><span>02</span><b>AI Foundations</b><small>ML • GenAI • Intelligent Systems</small></div>
+  <div><span>03</span><b>Industry Research</b><small>History • Products • Operations</small></div>
+  <div><span>04</span><b>Applied AI Thinking</b><small>Automation • Vision • Forecasting</small></div>
+</section>
+
+<section id="about" class="section shell">
+  <div class="section-head reveal"><span>01 / ABOUT ME</span><h2>A student portfolio built around <em>learning, systems and practical impact.</em></h2></div>
+  <div class="about-grid reveal">
+    <article class="feature-card"><span class="num">01</span><h3>My AI Beginning</h3><p>I am building my foundation in Artificial Intelligence through programming, mathematics, data thinking and hands-on practice. This portfolio shows what I am learning now and the direction I want to grow into.</p><div class="tags"><i>Curiosity</i><i>Consistency</i><i>Projects</i><i>Research</i></div></article>
+    <article><span>⌘</span><h3>Problem Solving</h3><p>Breaking difficult tasks into clear steps, testing solutions and improving them iteratively.</p></article>
+    <article><span>◎</span><h3>Systems Thinking</h3><p>Understanding how code, data, interfaces, APIs and users fit together inside a complete system.</p></article>
+    <article><span>↗</span><h3>Long-Term Direction</h3><p>Grow into an AI engineer who can build useful, reliable systems for real organizations and industries.</p></article>
+  </div>
+</section>
+
+<section id="ai" class="section paper-section">
+ <div class="shell">
+  <div class="section-head reveal"><span>02 / AI JOURNEY</span><h2>What I am <em>learning and building.</em></h2></div>
+  <div class="learning-grid reveal">
+   <article><b>01</b><h3>Python Programming</h3><p>Variables, conditions, loops, functions, collections, files and practical scripting.</p></article>
+   <article><b>02</b><h3>AI Fundamentals</h3><p>Agents, search, reasoning, knowledge representation and responsible AI concepts.</p></article>
+   <article><b>03</b><h3>Machine Learning</h3><p>Data preparation, model thinking, supervised and unsupervised learning, and evaluation.</p></article>
+   <article><b>04</b><h3>Generative AI</h3><p>Prompt design, LLM workflows, retrieval concepts and trustworthy application patterns.</p></article>
+   <article><b>05</b><h3>Web & APIs</h3><p>Flask applications, HTML/CSS interfaces, JavaScript interactions and API integration.</p></article>
+   <article><b>06</b><h3>Agentic Systems</h3><p>Tool-using agents, workflow automation, planning loops and human-in-the-loop systems.</p></article>
+  </div>
+ </div>
+</section>
+
+<section id="projects" class="section shell">
+  <div class="section-head reveal"><span>03 / PROJECTS</span><h2>Ideas becoming <em>working systems.</em></h2></div>
+  <div class="project-grid reveal">
+    <article><div class="project-art ai-art">AI</div><small>AI / LEARNING</small><h3>AI Study Assistant</h3><p>A concept for organizing notes, retrieving trusted study material and generating focused practice questions.</p><div class="tags"><i>Python</i><i>RAG</i><i>LLMs</i></div></article>
+    <article><div class="project-art web-art">WEB</div><small>WEB / FLASK</small><h3>Portfolio Systems</h3><p>Responsive Flask websites that combine backend routing, structured data and interactive user interfaces.</p><div class="tags"><i>Flask</i><i>HTML</i><i>CSS</i></div></article>
+    <article><div class="project-art data-art">DATA</div><small>RESEARCH / DATA</small><h3>Pakistan Industry Explorer</h3><p>A searchable knowledge interface for learning what major Pakistani industries do and where AI can help them.</p><div class="tags"><i>Research</i><i>Search</i><i>AI</i></div></article>
+  </div>
+</section>
+
+<section id="industries" class="section industry-section">
+ <div class="shell">
+  <div class="section-head light reveal"><span>04 / PAKISTAN INDUSTRIES</span><h2>Search. Explore. Understand.</h2><p>Industry profiles use publicly available official sources and are presented for learning and portfolio research.</p></div>
+  <div class="searchbar reveal"><span>⌕</span><input id="industrySearch" type="search" placeholder="Search textile, cement, automotive, pharma, energy…"><button id="clearSearch">Clear</button></div>
+  <div id="industryGrid" class="industry-grid reveal"></div>
+ </div>
+</section>
+
+<section id="ai-industry" class="section shell">
+  <div class="section-head reveal"><span>05 / AI × INDUSTRY</span><h2>Where AI can support <em>industrial performance.</em></h2></div>
+  <div class="ai-industry-layout reveal">
+    <div class="robot-panel"><div class="chip">AI</div><h3>Applied Intelligence</h3><p>The goal is not “AI everywhere.” It is choosing useful systems where data and automation can solve measurable operational problems.</p></div>
+    <div class="solution-list">
+      <article><b>01</b><div><h3>Computer Vision</h3><p>Detect product defects, monitor safety equipment and inspect production quality.</p></div></article>
+      <article><b>02</b><div><h3>Predictive Maintenance</h3><p>Use equipment data to identify failure patterns before expensive breakdowns.</p></div></article>
+      <article><b>03</b><div><h3>Forecasting</h3><p>Improve demand, inventory, energy-load and production planning using historical data.</p></div></article>
+      <article><b>04</b><div><h3>Knowledge Assistants</h3><p>Give teams faster access to manuals, SOPs, policies and internal technical knowledge.</p></div></article>
+      <article><b>05</b><div><h3>Process Optimization</h3><p>Analyze operational data to reduce waste, energy use, downtime and bottlenecks.</p></div></article>
+      <article><b>06</b><div><h3>Decision Support</h3><p>Build dashboards that combine trusted data, alerts and explanations for human decision-makers.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section contact-section">
+ <div class="shell contact-card reveal">
+  <div><span class="eyebrow">LET’S BUILD SOMETHING USEFUL</span><h2>Muhammad Rizwan</h2><p>AI Student • Python Learner • Industry Researcher</p></div>
+  <div class="contact-actions">
+    <a class="btn whatsapp-btn" id="whatsappLink" href="https://wa.me/923454121382" target="_blank" rel="noopener" aria-label="WhatsApp Muhammad Rizwan">WhatsApp ↗</a>
+    <a class="btn linkedin-btn" href="https://www.linkedin.com/in/muhammad-rizwan-692540433" target="_blank" rel="noopener" aria-label="Muhammad Rizwan on LinkedIn">LinkedIn ↗</a>
+    <a class="btn email-btn" href="mailto:rizwanbaloch4121382@gmail.com" aria-label="Email Muhammad Rizwan">Gmail ↗</a>
+  </div>
+  <small class="contact-note">WhatsApp: +92 345 4121382 &nbsp;•&nbsp; rizwanbaloch4121382@gmail.com</small>
+ </div>
+</section>
+</main>
+
+<div id="industryModal" class="modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close="modal"></div>
+  <article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" data-close="modal">×</button>
+    <div id="modalContent"></div>
+  </article>
+</div>
+
+<div id="profileModal" class="profile-modal" aria-hidden="true">
+  <div class="profile-modal-backdrop" data-close="profile"></div>
+  <article class="profile-modal-card" role="dialog" aria-modal="true" aria-label="Muhammad Rizwan profile photo">
+    <button class="profile-modal-close" type="button" data-close="profile" aria-label="Close profile photo">×</button>
+    <div class="profile-modal-glow"></div>
+    <img src="{{ url_for('static', filename='images/muhammad-rizwan.jpg') }}" alt="Muhammad Rizwan full profile photo">
+    <div class="profile-modal-caption"><strong>Muhammad Rizwan</strong><span>AI Student • Python Learner • Industry Researcher</span></div>
+  </article>
+</div>
+
+<footer><div class="shell"><span class="brandmark small">MR</span><p>© 2026 Muhammad Rizwan — AI & Pakistan Industries Portfolio.</p><a href="#home">Back to top ↑</a></div></footer>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
